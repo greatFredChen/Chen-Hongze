@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1099</width>
+    <height>836</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>图书管理系统正式版ver.233</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="appico.qrc">
+    <normaloff>:/btn.png</normaloff>:/btn.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#Widget{border-image: url(:/新前缀/cb8065380cd79123b53fe4beae345982b3b78018.jpg);}</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="5" column="1" rowspan="2" colspan="3">
+    <layout class="QGridLayout" name="gridLayout" rowstretch="1,1,1,1,1,1" rowminimumheight="1,1,1,1,1,1">
+     <item row="0" column="0">
+      <widget class="QPushButton" name="loginbutton">
+       <property name="minimumSize">
+        <size>
+         <width>140</width>
+         <height>140</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>140</width>
+         <height>140</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Agency FB</family>
+         <pointsize>60</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#loginbutton
+{
+border-image: url(:/冈部1（PNG）.png);
+}
+QPushButton#loginbutton:hover
+{
+ border-image:url(:/冈部2（PNG）.png);
+}
+QPushButton#loginbutton:pressed
+{
+ border-image:url(:/冈部3（PNG）.png);
+}
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="createbutton">
+       <property name="minimumSize">
+        <size>
+         <width>140</width>
+         <height>140</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>140</width>
+         <height>140</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Agency FB</family>
+         <pointsize>70</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#createbutton
+{
+border-image: url(:/嘟嘟噜2（PNG）.png);
+}
+QPushButton#createbutton:hover
+{
+border-image: url(:/嘟嘟噜3（PNG）.png);
+}
+QPushButton#createbutton:pressed
+{
+border-image: url(:/嘟嘟噜1（PNG）.png);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QPushButton" name="insertbutton">
+       <property name="minimumSize">
+        <size>
+         <width>140</width>
+         <height>140</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>140</width>
+         <height>140</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#insertbutton
+{
+border-image: url(:/阿万音1（PNG）.png);
+}
+QPushButton#insertbutton:hover
+{
+border-image: url(:/阿万音2（PNG）.png);
+}
+QPushButton#insertbutton:pressed
+{
+border-image: url(:/阿万音3（PNG）.png);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QPushButton" name="printbutton">
+       <property name="minimumSize">
+        <size>
+         <width>140</width>
+         <height>140</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>140</width>
+         <height>140</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#printbutton
+{
+border-image: url(:/萌郁1（PNG）.png);
+}
+QPushButton#printbutton:hover
+{
+border-image: url(:/萌郁2（PNG）.png);
+}
+QPushButton#printbutton:pressed
+{
+border-image: url(:/萌郁3（PNG）.png);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="font">
+        <font>
+         <family>华文琥珀</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt; color:#55ff00;&quot;&gt;登陆/登出&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="label_3">
+       <property name="font">
+        <font>
+         <family>华文琥珀</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt; color:#55ff00;&quot;&gt;创建&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLabel" name="label_4">
+       <property name="font">
+        <font>
+         <family>华文琥珀</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt; color:#55ff00;&quot;&gt;插入&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QLabel" name="label_5">
+       <property name="font">
+        <font>
+         <family>华文琥珀</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt; color:#55ff00;&quot;&gt;打印&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="savebutton">
+       <property name="minimumSize">
+        <size>
+         <width>140</width>
+         <height>140</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>140</width>
+         <height>140</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#savebutton
+{
+border-image: url(:/菲莉丝1（PNG）.png);
+}
+QPushButton#savebutton:hover
+{
+border-image: url(:/菲莉丝2（PNG）.png);
+}
+QPushButton#savebutton:pressed
+{
+border-image: url(:/菲莉丝3（PNG）.png);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="loadbutton">
+       <property name="minimumSize">
+        <size>
+         <width>140</width>
+         <height>140</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>140</width>
+         <height>140</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#loadbutton
+{
+border-image: url(:/真帆1（PNG）.png);
+}
+QPushButton#loadbutton:hover
+{
+border-image: url(:/真帆2（PNG）.png);
+}
+QPushButton#loadbutton:pressed
+{
+border-image: url(:/真帆3（PNG）.png);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QPushButton" name="searchbutton">
+       <property name="minimumSize">
+        <size>
+         <width>140</width>
+         <height>140</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>140</width>
+         <height>140</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#searchbutton
+{
+border-image: url(:/琉华子1（PNG）.png);
+}
+QPushButton#searchbutton:hover
+{
+border-image: url(:/琉华子2（PNG）.png);
+}
+QPushButton#searchbutton:pressed
+{
+border-image: url(:/琉华子3（PNG）.png);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QPushButton" name="registerbutton">
+       <property name="minimumSize">
+        <size>
+         <width>140</width>
+         <height>140</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>140</width>
+         <height>140</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#registerbutton
+{
+border-image: url(:/小动物1（PNG）.png);
+}
+QPushButton#registerbutton:hover
+{
+border-image: url(:/小动物2（PNG）.png);
+}
+QPushButton#registerbutton:pressed
+{
+border-image: url(:/小动物3（PNG）.png);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_9">
+       <property name="font">
+        <font>
+         <family>华文琥珀</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt; color:#55ff00;&quot;&gt;保存&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLabel" name="label_8">
+       <property name="font">
+        <font>
+         <family>华文琥珀</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt; color:#55ff00;&quot;&gt;载入&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QLabel" name="label_7">
+       <property name="font">
+        <font>
+         <family>华文琥珀</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt; color:#55ff00;&quot;&gt;搜索&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="3">
+      <widget class="QLabel" name="label_6">
+       <property name="font">
+        <font>
+         <family>华文琥珀</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt; color:#55ff00;&quot;&gt;注册&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QPushButton" name="emptybutton">
+       <property name="minimumSize">
+        <size>
+         <width>140</width>
+         <height>140</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>140</width>
+         <height>140</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#emptybutton
+{
+border-image: url(:/打工战士1（PNG）.png);
+}
+QPushButton#emptybutton:hover
+{
+border-image: url(:/打工战士2（PNG）.png);
+}
+QPushButton#emptybutton:pressed
+{
+border-image: url(:/打工战士3（PNG）.png);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QPushButton" name="deletebutton">
+       <property name="minimumSize">
+        <size>
+         <width>140</width>
+         <height>140</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>140</width>
+         <height>140</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#deletebutton
+{
+	border-image: url(:/助手1（PNG）.png);
+}
+QPushButton#deletebutton:hover
+{
+border-image: url(:/助手2（PNG）.png);
+}
+QPushButton#deletebutton:pressed
+{
+border-image: url(:/助手3（PNG）.png);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="QPushButton" name="borrowbutton">
+       <property name="minimumSize">
+        <size>
+         <width>140</width>
+         <height>140</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>140</width>
+         <height>140</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#borrowbutton
+{
+border-image: url(:/篝1（PNG）.png);
+}
+QPushButton#borrowbutton:hover
+{
+border-image: url(:/篝2（PNG）.png);
+}
+QPushButton#borrowbutton:pressed
+{
+border-image: url(:/篝3（PNG）.png);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="3">
+      <widget class="QPushButton" name="returnbutton">
+       <property name="minimumSize">
+        <size>
+         <width>140</width>
+         <height>140</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>140</width>
+         <height>140</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#returnbutton
+{
+border-image: url(:/桶子1（PNG）.png);
+}
+QPushButton#returnbutton:hover
+{
+border-image: url(:/桶子2（PNG）.png);
+}
+QPushButton#returnbutton:pressed
+{
+border-image: url(:/桶子3（PNG）.png);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="label_10">
+       <property name="font">
+        <font>
+         <family>华文琥珀</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt; color:#55ff00;&quot;&gt;清空&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLabel" name="label_11">
+       <property name="font">
+        <font>
+         <family>华文琥珀</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt; color:#55ff00;&quot;&gt;删除&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="2">
+      <widget class="QLabel" name="label_12">
+       <property name="font">
+        <font>
+         <family>华文琥珀</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt; color:#55ff00;&quot;&gt;借书&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="3">
+      <widget class="QLabel" name="label_13">
+       <property name="font">
+        <font>
+         <family>华文琥珀</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt; color:#55ff00;&quot;&gt;还书&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="7" column="4">
+    <widget class="QCheckBox" name="checkBox">
+     <property name="maximumSize">
+      <size>
+       <width>105</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>华文琥珀</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QCheckBox#checkBox
+{
+border-color:white;
+border-image: url(:/按钮.PNG);
+}
+QCheckBox#checkBox:hover
+{
+color:white;
+border-image: url(:/按钮.PNG);
+}
+QCheckBox#checkBox:pressed
+{
+color:blue;
+border-image: url(:/按钮.PNG);
+border:transparent;
+}</string>
+     </property>
+     <property name="text">
+      <string>bgm</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="4">
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>100</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="7" column="2">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>60</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="6" column="0">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>100</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="4" column="2">
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>30</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="2" column="2">
+    <widget class="QLabel" name="label">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>100</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: \*url();
+font: 28pt &quot;华文琥珀&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; color:#00ff7f;&quot;&gt;图书管理系统正式版ver.233&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="3">
+    <widget class="QLabel" name="label_14">
+     <property name="font">
+      <font>
+       <family>华文琥珀</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#00ff00;&quot;&gt;by 第一小组&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#00ff00;&quot;&gt;(其实是我&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#00ff00;&quot;&gt;一个人写的.jpg)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="appico.qrc"/>
+ </resources>
+ <connections/>
+</ui>

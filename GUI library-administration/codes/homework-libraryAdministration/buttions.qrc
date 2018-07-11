@@ -1,0 +1,45 @@
+<RCC>
+    <qresource prefix="/按钮"/>
+    <qresource prefix="/">
+        <file>阿万音1（PNG）.png</file>
+        <file>阿万音2（PNG）.png</file>
+        <file>阿万音3（PNG）.png</file>
+        <file>打工战士1（PNG）.png</file>
+        <file>打工战士2（PNG）.png</file>
+        <file>打工战士3（PNG）.png</file>
+        <file>嘟嘟噜1（PNG）.png</file>
+        <file>嘟嘟噜2（PNG）.png</file>
+        <file>嘟嘟噜3（PNG）.png</file>
+        <file>菲莉丝1（PNG）.png</file>
+        <file>菲莉丝2（PNG）.png</file>
+        <file>菲莉丝3（PNG）.png</file>
+        <file>冈部1（PNG）.png</file>
+        <file>冈部2（PNG）.png</file>
+        <file>冈部3（PNG）.png</file>
+        <file>篝1（PNG）.png</file>
+        <file>篝2（PNG）.png</file>
+        <file>篝3（PNG）.png</file>
+        <file>琉华子1（PNG）.png</file>
+        <file>琉华子2（PNG）.png</file>
+        <file>琉华子3（PNG）.png</file>
+        <file>萌郁1（PNG）.png</file>
+        <file>萌郁2（PNG）.png</file>
+        <file>萌郁3（PNG）.png</file>
+        <file>启动界面　まより（成稿）.jpg</file>
+        <file>启动界面完成　まより（成稿）.jpg</file>
+        <file>桶子1（PNG）.png</file>
+        <file>桶子2（PNG）.png</file>
+        <file>桶子3（PNG）.png</file>
+        <file>小动物1（PNG）.png</file>
+        <file>小动物2（PNG）.png</file>
+        <file>小动物3（PNG）.png</file>
+        <file>真帆1（PNG）.png</file>
+        <file>真帆2（PNG）.png</file>
+        <file>真帆3（PNG）.png</file>
+        <file>助手1（PNG）.png</file>
+        <file>助手2（PNG）.png</file>
+        <file>助手3（PNG）.png</file>
+        <file>a051a6562121e2689fdb843965dbd897.png</file>
+        <file>按钮.PNG</file>
+    </qresource>
+</RCC>

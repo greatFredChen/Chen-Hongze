@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>returndialog</class>
+ <widget class="QDialog" name="returndialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>809</width>
+    <height>511</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>还书</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="appico.qrc">
+    <normaloff>:/btn.png</normaloff>:/btn.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#returndialog{border-image: url(:/新前缀/cb8065380cd79123b53fe4beae345982b3b78018.jpg);}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_3">
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>30</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; color:#ff007f;&quot;&gt;你已经借的书&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QListView" name="listView">
+         <property name="font">
+          <font>
+           <family>等线</family>
+           <pointsize>16</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background:transparent;color:white;
+border:2px groove gray;border-radius:10px;padding:2px 4px</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QPushButton" name="pushButton_3">
+           <property name="font">
+            <font>
+             <family>黑体</family>
+             <pointsize>18</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton#pushButton_3
+{
+border-color:white;
+border-image: url(:/按钮.PNG);
+}
+QPushButton#pushButton_3:hover
+{
+color:white;
+border-image: url(:/按钮.PNG);
+}
+QPushButton#pushButton_3:pressed
+{
+color:blue;
+border-image: url(:/按钮.PNG);
+border:transparent;
+}</string>
+           </property>
+           <property name="text">
+            <string>查看</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_4">
+           <property name="font">
+            <font>
+             <family>黑体</family>
+             <pointsize>18</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton#pushButton_4
+{
+border-color:white;
+border-image: url(:/按钮.PNG);
+}
+QPushButton#pushButton_4:hover
+{
+color:white;
+border-image: url(:/按钮.PNG);
+}
+QPushButton#pushButton_4:pressed
+{
+color:blue;
+border-image: url(:/按钮.PNG);
+border:transparent;
+}</string>
+           </property>
+           <property name="text">
+            <string>清空</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; color:#00ff00;&quot;&gt;书名:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit">
+           <property name="font">
+            <font>
+             <family>等线</family>
+             <pointsize>20</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border:2px groove gray;border-radius:10px;padding:2px 4px;
+background:transparent;color:white;</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QPushButton" name="pushButton">
+           <property name="font">
+            <font>
+             <family>黑体</family>
+             <pointsize>18</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton#pushButton
+{
+border-color:white;
+border-image: url(:/按钮.PNG);
+}
+QPushButton#pushButton:hover
+{
+color:white;
+border-image: url(:/按钮.PNG);
+}
+QPushButton#pushButton:pressed
+{
+color:blue;
+border-image: url(:/按钮.PNG);
+border:transparent;
+}</string>
+           </property>
+           <property name="text">
+            <string>确定</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_2">
+           <property name="font">
+            <font>
+             <family>黑体</family>
+             <pointsize>18</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton#pushButton_2
+{
+border-color:white;
+border-image: url(:/按钮.PNG);
+}
+QPushButton#pushButton_2:hover
+{
+color:white;
+border-image: url(:/按钮.PNG);
+}
+QPushButton#pushButton_2:pressed
+{
+color:blue;
+border-image: url(:/按钮.PNG);
+border:transparent;
+}</string>
+           </property>
+           <property name="text">
+            <string>取消</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>30</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="appico.qrc"/>
+ </resources>
+ <connections/>
+</ui>

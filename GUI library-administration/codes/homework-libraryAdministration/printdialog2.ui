@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>printdialog2</class>
+ <widget class="QDialog" name="printdialog2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>865</width>
+    <height>533</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>打印</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="appico.qrc">
+    <normaloff>:/btn.png</normaloff>:/btn.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#printdialog2{border-image: url(:/新前缀/cb8065380cd79123b53fe4beae345982b3b78018.jpg);}</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="1">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>30</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="0">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>100</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="1">
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:36pt; color:#55aa00;&quot;&gt;书本列表&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QTableView" name="tableView">
+       <property name="font">
+        <font>
+         <family>宋体</family>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background:transparent;color:black;
+border:2px groove gray;border-radius:10px;padding:2px 4px;
+QHeaderView::section:vertical {
+    background: transparent;
+        width: 30px;
+};
+QHeaderView::section:horizontal {
+    background: transparent;
+        height: 30px;
+}</string>
+       </property>
+       <property name="selectionMode">
+        <enum>QAbstractItemView::ExtendedSelection</enum>
+       </property>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>200</number>
+       </attribute>
+       <attribute name="horizontalHeaderMinimumSectionSize">
+        <number>50</number>
+       </attribute>
+       <attribute name="verticalHeaderDefaultSectionSize">
+        <number>80</number>
+       </attribute>
+       <attribute name="verticalHeaderMinimumSectionSize">
+        <number>60</number>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="okbutton_3">
+         <property name="font">
+          <font>
+           <family>等线</family>
+           <pointsize>26</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton#okbutton_3
+{
+border-color:white;
+border-image: url(:/按钮.PNG);
+}
+QPushButton#okbutton_3:hover
+{
+color:white;
+border-image: url(:/按钮.PNG);
+}
+QPushButton#okbutton_3:pressed
+{
+color:blue;
+border-image: url(:/按钮.PNG);
+border:transparent;
+}</string>
+         </property>
+         <property name="text">
+          <string>上一页</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="okbutton_4">
+         <property name="font">
+          <font>
+           <family>等线</family>
+           <pointsize>26</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton#okbutton_4
+{
+border-color:white;
+border-image: url(:/按钮.PNG);
+}
+QPushButton#okbutton_4:hover
+{
+color:white;
+border-image: url(:/按钮.PNG);
+}
+QPushButton#okbutton_4:pressed
+{
+color:blue;
+border-image: url(:/按钮.PNG);
+border:transparent;
+}</string>
+         </property>
+         <property name="text">
+          <string>下一页</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="printbutton_2">
+         <property name="font">
+          <font>
+           <family>等线</family>
+           <pointsize>26</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton#printbutton_2
+{
+border-color:white;
+border-image: url(:/按钮.PNG);
+}
+QPushButton#printbutton_2:hover
+{
+color:white;
+border-image: url(:/按钮.PNG);
+}
+QPushButton#printbutton_2:pressed
+{
+color:blue;
+border-image: url(:/按钮.PNG);
+border:transparent;
+}</string>
+         </property>
+         <property name="text">
+          <string>首页</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="printbutton_3">
+         <property name="font">
+          <font>
+           <family>等线</family>
+           <pointsize>26</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton#printbutton_3
+{
+border-color:white;
+border-image: url(:/按钮.PNG);
+}
+QPushButton#printbutton_3:hover
+{
+color:white;
+border-image: url(:/按钮.PNG);
+}
+QPushButton#printbutton_3:pressed
+{
+color:blue;
+border-image: url(:/按钮.PNG);
+border:transparent;
+}</string>
+         </property>
+         <property name="text">
+          <string>末页</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="2">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="okbutton">
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>26</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#okbutton
+{
+border-color:white;
+border-image: url(:/按钮.PNG);
+}
+QPushButton#okbutton:hover
+{
+color:white;
+border-image: url(:/按钮.PNG);
+}
+QPushButton#okbutton:pressed
+{
+color:blue;
+border-image: url(:/按钮.PNG);
+border:transparent;
+}</string>
+       </property>
+       <property name="text">
+        <string>退出</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="okbutton_2">
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>26</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#okbutton_2
+{
+border-color:white;
+border-image: url(:/按钮.PNG);
+}
+QPushButton#okbutton_2:hover
+{
+color:white;
+border-image: url(:/按钮.PNG);
+}
+QPushButton#okbutton_2:pressed
+{
+color:blue;
+border-image: url(:/按钮.PNG);
+border:transparent;
+}</string>
+       </property>
+       <property name="text">
+        <string>清空</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="printbutton">
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>26</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#printbutton
+{
+border-color:white;
+border-image: url(:/按钮.PNG);
+}
+QPushButton#printbutton:hover
+{
+color:white;
+border-image: url(:/按钮.PNG);
+}
+QPushButton#printbutton:pressed
+{
+color:blue;
+border-image: url(:/按钮.PNG);
+border:transparent;
+}</string>
+       </property>
+       <property name="text">
+        <string>打印</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="1">
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>30</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="appico.qrc"/>
+ </resources>
+ <connections/>
+</ui>

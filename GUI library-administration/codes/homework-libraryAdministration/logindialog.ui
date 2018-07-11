@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>logindialog</class>
+ <widget class="QDialog" name="logindialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>746</width>
+    <height>433</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>图书馆登录</string>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#logindialog{border-image: url(:/新前缀/石头门2.jpg);}
+</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>290</y>
+     <width>521</width>
+     <height>44</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <widget class="QPushButton" name="loginokbutton">
+      <property name="font">
+       <font>
+        <family>黑体</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#loginokbutton
+{
+border-color:white;
+border-image: url(:/按钮.PNG);
+}
+QPushButton#loginokbutton:hover
+{
+color:white;
+border-image: url(:/按钮.PNG);
+}
+QPushButton#loginokbutton:pressed
+{
+color:blue;
+border-image: url(:/按钮.PNG);
+border:transparent;
+}</string>
+      </property>
+      <property name="text">
+       <string>确认</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="logincancelbutton">
+      <property name="font">
+       <font>
+        <family>黑体</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#logincancelbutton
+{
+border-color:white;
+border-image: url(:/按钮.PNG);
+}
+QPushButton#logincancelbutton:hover
+{
+color:white;
+border-image: url(:/按钮.PNG);
+}
+QPushButton#logincancelbutton:pressed
+{
+color:blue;
+border-image: url(:/按钮.PNG);
+border:transparent;
+}</string>
+      </property>
+      <property name="text">
+       <string>取消</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>90</y>
+     <width>581</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,10">
+      <item>
+       <widget class="QLabel" name="accountlabel">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:20pt; color:#00aaff;&quot;&gt;账号：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="accountline">
+        <property name="font">
+         <font>
+          <family>华文琥珀</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:transparent;color:white;
+border:2px groove gray;border-radius:10px;padding:2px 4px</string>
+        </property>
+        <property name="echoMode">
+         <enum>QLineEdit::Normal</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="0,10">
+      <item>
+       <widget class="QLabel" name="passwordlabel">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:20pt; color:#00aaff;&quot;&gt;密码：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="passwordline">
+        <property name="font">
+         <font>
+          <family>华文琥珀</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:transparent;color:white;
+border:2px groove gray;border-radius:10px;padding:2px 4px</string>
+        </property>
+        <property name="echoMode">
+         <enum>QLineEdit::Password</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

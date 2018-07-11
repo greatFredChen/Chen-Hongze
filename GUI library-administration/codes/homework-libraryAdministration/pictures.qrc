@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/新前缀">
+        <file>570db2b890f11.jpg</file>
+        <file>cb8065380cd79123b53fe4beae345982b3b78018.jpg</file>
+        <file>u=1445894207,3384018923&amp;fm=27&amp;gp=0.jpg</file>
+        <file>石头门2.jpg</file>
+        <file>石头门3.jpg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>basewindow</class>
+ <widget class="QDialog" name="basewindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1112</width>
+    <height>803</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-image: url(:/新前缀/cb8065380cd79123b53fe4beae345982b3b78018.jpg);</string>
+  </property>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
