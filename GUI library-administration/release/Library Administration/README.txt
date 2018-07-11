@@ -1,5 +1,5 @@
-ÈôÏëÈÃ³ÌÐòÕý³£¹¤×÷£¬Çë°Ñbgm.mp3   books.txt   userinfo.txt·ÅÈëDÅÌ£¬²»ÐèÒªÐÂ½¨ÎÄ¼þ¼Ð£¬Ö±½Ó·ÅÈëDÅÌ¼´¿É£¡
+è‹¥æƒ³è®©ç¨‹åºæ­£å¸¸å·¥ä½œï¼Œè¯·æŠŠbgm.mp3   books.txt   userinfo.txtæ”¾å…¥Dç›˜ï¼Œä¸éœ€è¦æ–°å»ºæ–‡ä»¶å¤¹ï¼Œç›´æŽ¥æ”¾å…¥Dç›˜å³å¯ï¼
 
-LAVÎªÒôÔ´½âÂëÈí¼þ£¬¿ÉÒÔ±£Ö¤³ÌÐòbgmµÄÕý³£²¥·Å£¡£¡
+LAVä¸ºéŸ³æºè§£ç è½¯ä»¶ï¼Œå¯ä»¥ä¿è¯ç¨‹åºbgmçš„æ­£å¸¸æ’­æ”¾ï¼ï¼
 
-ÈôÓÐÈÎºÎÒÉÎÊ£¬Çë×ÉÑ¯492324084@qq.com
+è‹¥æœ‰ä»»ä½•ç–‘é—®ï¼Œè¯·å’¨è¯¢greatFredChen@gmail.com.
